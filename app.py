@@ -12,9 +12,9 @@ Happy Girlfriend's Day, August 1st!
 
 # Embed the YouTube Shorts video via iframe for reliable playback
 st.markdown("""
-<iframe width="560" height="315" 
-src="https://www.youtube.com/embed/plA3U18_y1w?autoplay=1" 
-frameborder="0" allow="autoplay" allowfullscreen></iframe>
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/plA3U18_y1w?autoplay=1&mute=1&loop=1&playlist=plA3U18_y1w" 
+frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 """, unsafe_allow_html=True)
 
 # Add some interactive love
