@@ -10,8 +10,12 @@ to show how special you are to me.
 Happy Girlfriend's Day, August 1st!  
 """)
 
-# Embed a romantic YouTube song (replace with your favorite)
-st.video("https://www.youtube.com/shorts/plA3U18_y1w")  # Example: "Sugar" by Maroon 5
+# Embed the YouTube Shorts video via iframe for reliable playback
+st.markdown("""
+<iframe width="560" height="315" 
+src="https://www.youtube.com/embed/plA3U18_y1w" 
+frameborder="0" allowfullscreen></iframe>
+""", unsafe_allow_html=True)
 
 # Add some interactive love
 if st.button("Press me ❤️"):
