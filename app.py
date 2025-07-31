@@ -11,7 +11,7 @@ Happy Girlfriend's Day, August 1st!
 """)
 
 # Embed a romantic YouTube song (replace with your favorite)
-st.video("https://www.youtube.com/watch?v=ZyhrYis509A")  # Example: "Sugar" by Maroon 5
+st.video("https://www.youtube.com/shorts/plA3U18_y1w")  # Example: "Sugar" by Maroon 5
 
 # Add some interactive love
 if st.button("Press me ❤️"):
